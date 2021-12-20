@@ -14,7 +14,7 @@ class AppPages {
     GetPage(
       name: _Paths.dashboard,
       //page: () => const DashboardScreen(),
-      page: () => const Login(),
+      page: () => Login(),
       binding: DashboardBinding(),
     ),
   ];
