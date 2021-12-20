@@ -30,6 +30,7 @@ class _LoginState extends State<Login> {
                 width: MediaQuery.of(context).size.width * .45,
                 height: MediaQuery.of(context).size.height * .47,
                 child: Card(
+                  shadowColor: Color.fromRGBO(218,165,32,1),
                   elevation: 7,
                   color: Colors.transparent,
                   shape: BeveledRectangleBorder(
@@ -52,14 +53,19 @@ class _LoginState extends State<Login> {
                         height: MediaQuery.of(context).size.height * .1,
                         child: TextField(
                             decoration: InputDecoration(
-                                border: OutlineInputBorder())),
+                                border: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(10)
+                                  
+                                ))),
                       ),
                       Container(
                         width: MediaQuery.of(context).size.width * .3,
                         height: MediaQuery.of(context).size.height * .1,
                         child: TextField(
                             decoration: InputDecoration(
-                                border: OutlineInputBorder())),
+                                border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(10)
+                                ))),
                       ),
                       Container(
                         height: 50.0,
