@@ -1,6 +1,8 @@
 import '../../features/dashboard/views/screens/dashboard_screen.dart';
 import 'package:get/get.dart';
 
+import '../../features/dashboard/views/screens/login_page.dart';
+
 part 'app_routes.dart';
 
 /// contains all configuration pages
@@ -11,7 +13,8 @@ class AppPages {
   static final routes = [
     GetPage(
       name: _Paths.dashboard,
-      page: () => const DashboardScreen(),
+      //page: () => const DashboardScreen(),
+      page: () => const Login(),
       binding: DashboardBinding(),
     ),
   ];

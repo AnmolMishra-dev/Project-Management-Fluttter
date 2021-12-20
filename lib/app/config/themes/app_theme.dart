@@ -18,7 +18,7 @@ class AppTheme {
         ).merge(
           ButtonStyle(elevation: MaterialStateProperty.all(0)),
         )),
-        canvasColor: const Color.fromRGBO(31, 29, 44, 1),
+        canvasColor: const Color.fromRGBO(59,59,59, 2),
         cardColor: const Color.fromRGBO(38, 40, 55, 1),
       );
 
