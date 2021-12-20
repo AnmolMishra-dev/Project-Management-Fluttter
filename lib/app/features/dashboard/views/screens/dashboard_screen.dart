@@ -266,7 +266,7 @@ class DashboardScreen extends GetView<DashboardController> {
                     data: ProgressReportCardData(
                       title: "1st Sprint",
                       doneTask: 5,
-                      percent: .3,
+                      percent: .4,
                       task: 3,
                       undoneTask: 2,
                     ),
@@ -288,7 +288,7 @@ class DashboardScreen extends GetView<DashboardController> {
                   data: ProgressReportCardData(
                     title: "1st Sprint",
                     doneTask: 5,
-                    percent: .3,
+                    percent: .4,
                     task: 3,
                     undoneTask: 2,
                   ),
